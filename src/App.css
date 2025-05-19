@@ -36,6 +36,9 @@
   height: 30px;
 }
 
-.table-div {
+.table-div,
+.col-xl-8,
+.col-xl-4 {
   padding: 0 !important;
+  min-height: 400px !important;
 }

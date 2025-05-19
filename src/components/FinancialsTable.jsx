@@ -83,28 +83,28 @@ const FinancialsTable = () => {
           <tr className="market-share-row">
             <td>%Market Share</td>
             <td></td>
+            <td className="disable-cell"></td>
             <td></td>
             <td></td>
             <td></td>
+            <td className="disable-cell"></td>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td className="disable-cell"></td>
           </tr>
           <tr>
             <td>#Avg. Daily Clients</td>
             <td></td>
+            <td className="disable-cell"></td>
             <td></td>
             <td></td>
             <td></td>
+            <td className="disable-cell"></td>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td className="disable-cell"></td>
           </tr>
         </tbody>
       </table>
