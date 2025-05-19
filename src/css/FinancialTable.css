@@ -1,0 +1,37 @@
+.f-table {
+  width: 100%;
+  border: 1px solid;
+}
+
+.sub-col {
+  font-size: 11px !important;
+}
+
+.f-table,
+th,
+td {
+  border: 1px solid black !important;
+}
+
+.f-table tbody tr td {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.cross {
+  background-color: #023e8a !important;
+  width: 150px;
+}
+
+.t-head {
+  background-color: #0874e1 !important;
+  color: #fff !important;
+}
+
+.sub-col {
+  background-color: #00b4d8 !important;
+}
+
+.market-share-row {
+  border-top: 1px solid !important;
+}

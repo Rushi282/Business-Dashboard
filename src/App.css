@@ -1,0 +1,41 @@
+.head {
+  min-height: 40px;
+  text-align: center;
+  align-content: center;
+  background-color: #023e8a;
+  color: #fff;
+}
+
+.header {
+  min-height: 40px;
+  border: 2px solid;
+  margin-top: 5px;
+  align-content: center;
+  display: flex;
+  gap: 20px;
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
+.header span {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.date-input {
+  background-color: #023e8a;
+  width: 200px;
+  height: 30px;
+}
+
+.search-btn {
+  background-color: #023e8a;
+  width: 70px;
+  color: #fff;
+  height: 30px;
+}
+
+.table-div {
+  padding: 0 !important;
+}
