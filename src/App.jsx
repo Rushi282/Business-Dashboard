@@ -1,4 +1,5 @@
 import "./App.css";
+import CustomDatePicker from "./components/CustomDatePicker";
 import FinancialsTable from "./components/FinancialsTable";
 import GrossCommCOI from "./components/GrossCommCOI";
 import GrossCommission from "./components/GrossCommission";
@@ -16,13 +17,13 @@ function App() {
             <h3>Cahe ET - Business KPI – EMEA</h3>
           </header>
           <header className="header mt-1">
-            <span>select date</span>
-            <input type="date" class="date-input" />
-            <button className="search-btn">Go</button>
+            {/* <span>select date</span>
+            <input type="date" class="date-input" min={"2024-01-01"} />
+            <button className="search-btn">Go</button> */}
+            <CustomDatePicker />
           </header>
         </div>
         {/* Header end */}
-
         {/* Content start */}
         <div className="mt-1 content-box row">
           {/* Table start */}
