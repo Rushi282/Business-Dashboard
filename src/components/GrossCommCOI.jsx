@@ -13,12 +13,7 @@ const GrossCommCOI = () => {
       text: "Gross Commissions & Cost of Income",
       align: "center",
     },
-    credits: {
-      text:
-        "Source: " +
-        '<a href="https://www.yr.no/nb/historikk/graf/5-97251/Norge/Finnmark/Karasjok/Karasjok?q=2023"' +
-        'target="_blank">YR</a>',
-    },
+
     xAxis: [
       {
         categories: [
@@ -42,31 +37,19 @@ const GrossCommCOI = () => {
       {
         // Primary yAxis
         labels: {
-          format: "{value}°C",
-          style: {
-            color: Highcharts.getOptions().colors[1],
-          },
+          enabled: false,
         },
         title: {
-          text: "Temperature",
-          style: {
-            color: Highcharts.getOptions().colors[1],
-          },
+          text: null,
         },
       },
       {
         // Secondary yAxis
-        title: {
-          text: "Precipitation",
-          style: {
-            color: Highcharts.getOptions().colors[0],
-          },
-        },
         labels: {
-          format: "{value} mm",
-          style: {
-            color: Highcharts.getOptions().colors[0],
-          },
+          enabled: false,
+        },
+        title: {
+          text: null,
         },
         opposite: true,
       },
@@ -75,15 +58,15 @@ const GrossCommCOI = () => {
       shared: true,
     },
     legend: {
-      align: "left",
-      verticalAlign: "top",
+      align: "center",
+      verticalAlign: "bottom",
       backgroundColor:
         Highcharts.defaultOptions.legend.backgroundColor || // theme
         "rgba(255,255,255,0.25)",
     },
     series: [
       {
-        name: "Precipitation",
+        name: "Gross Commissions",
         type: "column",
         yAxis: 1,
         data: [
@@ -91,11 +74,12 @@ const GrossCommCOI = () => {
           16.0,
         ],
         tooltip: {
-          valueSuffix: " mm",
+          valueSuffix: "",
         },
+        color: "#023e8a",
       },
       {
-        name: "Precipitation",
+        name: "Cost of Income",
         type: "column",
         yAxis: 1,
         data: [
@@ -103,19 +87,21 @@ const GrossCommCOI = () => {
           33.0,
         ],
         tooltip: {
-          valueSuffix: " mm",
+          valueSuffix: "",
         },
+        color: "#00b4d8",
       },
       {
-        name: "Temperature",
+        name: "COI % of Gross Commission",
         type: "spline",
         data: [
           -11.4, -9.5, -14.2, 0.2, 7.0, 12.1, 13.5, 13.6, 8.2, -2.8, -12.0,
           -15.5,
         ],
         tooltip: {
-          valueSuffix: "°C",
+          valueSuffix: " %",
         },
+        color: "#00b4d8",
       },
     ],
   };
