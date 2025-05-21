@@ -12,27 +12,34 @@ const GrossCommission = () => {
     },
     xAxis: {
       categories: [
-        "USA",
-        "China",
-        "Brazil",
-        "EU",
-        "Argentina",
-        "India",
-        "Australia",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
       ],
       crosshair: true,
       accessibility: {
-        description: "Countries",
+        description: "",
       },
     },
     yAxis: {
-      min: 0,
+      labels: {
+        enabled: false, // disables the y-axis values
+      },
       title: {
-        text: "1000 metric tons (MT)",
+        text: null, // hides the y-axis title if any
       },
     },
     tooltip: {
-      valueSuffix: " (1000 MT)",
+      valueSuffix: "",
     },
     plotOptions: {
       column: {
@@ -42,12 +49,20 @@ const GrossCommission = () => {
     },
     series: [
       {
-        name: "Corn",
-        data: [387749, 280000, 129000, 64300, 54000, 34300, 200000],
+        name: "Gross Commissions",
+        data: [
+          387749, 280000, 129000, 64300, 54000, 34300, 200000, 387749, 280000,
+          129000, 64300, 54000,
+        ],
+        color: "#023e8a",
       },
       {
-        name: "Wheat",
-        data: [45321, 140000, 10000, 140500, 19500, 113500, 100000],
+        name: "Net Revenue",
+        data: [
+          45321, 140000, 10000, 140500, 19500, 113500, 100000, 45321, 140000,
+          10000, 140500, 19500,
+        ],
+        color: "#0874e1",
       },
     ],
   };
