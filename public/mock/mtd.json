@@ -1,0 +1,2522 @@
+[
+  {
+    "Business Date": "2023-12-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-68.57%"
+  },
+  {
+    "Business Date": "2023-12-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.88,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-55.68%"
+  },
+  {
+    "Business Date": "2023-12-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-74.36%"
+  },
+  {
+    "Business Date": "2023-12-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-62.35%"
+  },
+  {
+    "Business Date": "2023-12-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-70.89%"
+  },
+  {
+    "Business Date": "2023-12-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-67.86%"
+  },
+  {
+    "Business Date": "2023-12-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-71.05%"
+  },
+  {
+    "Business Date": "2023-12-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-71.23%"
+  },
+  {
+    "Business Date": "2023-12-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.81,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-67.9%"
+  },
+  {
+    "Business Date": "2023-12-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-66.67%"
+  },
+  {
+    "Business Date": "2023-12-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-68.29%"
+  },
+  {
+    "Business Date": "2023-12-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-68.92%"
+  },
+  {
+    "Business Date": "2023-12-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-69.44%"
+  },
+  {
+    "Business Date": "2023-12-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-65.71%"
+  },
+  {
+    "Business Date": "2023-12-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-71.43%"
+  },
+  {
+    "Business Date": "2023-12-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-71.08%"
+  },
+  {
+    "Business Date": "2023-12-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-73.08%"
+  },
+  {
+    "Business Date": "2023-12-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-67.09%"
+  },
+  {
+    "Business Date": "2023-12-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-72.5%"
+  },
+  {
+    "Business Date": "2023-12-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-69.41%"
+  },
+  {
+    "Business Date": "2024-01-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-67.09%"
+  },
+  {
+    "Business Date": "2024-01-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-74.68%"
+  },
+  {
+    "Business Date": "2024-01-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.6,
+    "COI/Rev EMEA(%)": "-72.29%"
+  },
+  {
+    "Business Date": "2024-01-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-74.03%"
+  },
+  {
+    "Business Date": "2024-01-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-56.98%"
+  },
+  {
+    "Business Date": "2024-01-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.88,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-67.05%"
+  },
+  {
+    "Business Date": "2024-01-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-66.28%"
+  },
+  {
+    "Business Date": "2024-01-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-66.67%"
+  },
+  {
+    "Business Date": "2024-01-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-78.67%"
+  },
+  {
+    "Business Date": "2024-01-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.6,
+    "COI/Rev EMEA(%)": "-78.95%"
+  },
+  {
+    "Business Date": "2024-01-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-68.06%"
+  },
+  {
+    "Business Date": "2024-01-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.47,
+    "COI/Rev EMEA(%)": "-64.38%"
+  },
+  {
+    "Business Date": "2024-01-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.71,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-64.79%"
+  },
+  {
+    "Business Date": "2024-01-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-70.27%"
+  },
+  {
+    "Business Date": "2024-01-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-70.51%"
+  },
+  {
+    "Business Date": "2024-01-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.87,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-67.82%"
+  },
+  {
+    "Business Date": "2024-01-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-63.53%"
+  },
+  {
+    "Business Date": "2024-01-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.81,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-61.73%"
+  },
+  {
+    "Business Date": "2024-01-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-68.67%"
+  },
+  {
+    "Business Date": "2024-01-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-68.42%"
+  },
+  {
+    "Business Date": "2024-01-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-71.79%"
+  },
+  {
+    "Business Date": "2024-01-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-72.50%"
+  },
+  {
+    "Business Date": "2024-01-31T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-67.09%"
+  },
+  {
+    "Business Date": "2024-02-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-59.04%"
+  },
+  {
+    "Business Date": "2024-02-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-75.0%"
+  },
+  {
+    "Business Date": "2024-02-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.71,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-74.65%"
+  },
+  {
+    "Business Date": "2024-02-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.88,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-59.09%"
+  },
+  {
+    "Business Date": "2024-02-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-64.1%"
+  },
+  {
+    "Business Date": "2024-02-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.6,
+    "COI/Rev EMEA(%)": "-69.77%"
+  },
+  {
+    "Business Date": "2024-02-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-66.67%"
+  },
+  {
+    "Business Date": "2024-02-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-63.89%"
+  },
+  {
+    "Business Date": "2024-02-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-65.82%"
+  },
+  {
+    "Business Date": "2024-02-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-68.92%"
+  },
+  {
+    "Business Date": "2024-02-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-72.5%"
+  },
+  {
+    "Business Date": "2024-02-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-71.43%"
+  },
+  {
+    "Business Date": "2024-02-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-68.57%"
+  },
+  {
+    "Business Date": "2024-02-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-69.41%"
+  },
+  {
+    "Business Date": "2024-02-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.47,
+    "COI/Rev EMEA(%)": "-64.38%"
+  },
+  {
+    "Business Date": "2024-02-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-68.29%"
+  },
+  {
+    "Business Date": "2024-02-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-72.0%"
+  },
+  {
+    "Business Date": "2024-02-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.87,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-67.82%"
+  },
+  {
+    "Business Date": "2024-02-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-64.1%"
+  },
+  {
+    "Business Date": "2024-02-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-66.28%"
+  },
+  {
+    "Business Date": "2024-02-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-69.44%"
+  },
+  {
+    "Business Date": "2024-03-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-53.49%"
+  },
+  {
+    "Business Date": "2024-03-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-58.33%"
+  },
+  {
+    "Business Date": "2024-03-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.71,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-81.69%"
+  },
+  {
+    "Business Date": "2024-03-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-82.86%"
+  },
+  {
+    "Business Date": "2024-03-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-80.56%"
+  },
+  {
+    "Business Date": "2024-03-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-67.09%"
+  },
+  {
+    "Business Date": "2024-03-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-70.0%"
+  },
+  {
+    "Business Date": "2024-03-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-65.06%"
+  },
+  {
+    "Business Date": "2024-03-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-67.06%"
+  },
+  {
+    "Business Date": "2024-03-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-64.0%"
+  },
+  {
+    "Business Date": "2024-03-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-68.42%"
+  },
+  {
+    "Business Date": "2024-03-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-71.43%"
+  },
+  {
+    "Business Date": "2024-03-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-74.36%"
+  },
+  {
+    "Business Date": "2024-03-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-71.43%"
+  },
+  {
+    "Business Date": "2024-03-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-68.6%"
+  },
+  {
+    "Business Date": "2024-03-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-68.92%"
+  },
+  {
+    "Business Date": "2024-03-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.87,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-67.82%"
+  },
+  {
+    "Business Date": "2024-03-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-68.29%"
+  },
+  {
+    "Business Date": "2024-03-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-67.06%"
+  },
+  {
+    "Business Date": "2024-03-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-68.49%"
+  },
+  {
+    "Business Date": "2024-03-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-63.89%"
+  },
+  {
+    "Business Date": "2024-04-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-57.5%"
+  },
+  {
+    "Business Date": "2024-04-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.87,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-57.47%"
+  },
+  {
+    "Business Date": "2024-04-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-73.97%"
+  },
+  {
+    "Business Date": "2024-04-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-67.12%"
+  },
+  {
+    "Business Date": "2024-04-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.9,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-58.89%"
+  },
+  {
+    "Business Date": "2024-04-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-61.9%"
+  },
+  {
+    "Business Date": "2024-04-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.47,
+    "COI/Rev EMEA(%)": "-65.28%"
+  },
+  {
+    "Business Date": "2024-04-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-73.68%"
+  },
+  {
+    "Business Date": "2024-04-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-66.23%"
+  },
+  {
+    "Business Date": "2024-04-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-64.1%"
+  },
+  {
+    "Business Date": "2024-04-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.71,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-64.79%"
+  },
+  {
+    "Business Date": "2024-04-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-70.27%"
+  },
+  {
+    "Business Date": "2024-04-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-68.6%"
+  },
+  {
+    "Business Date": "2024-04-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-69.62%"
+  },
+  {
+    "Business Date": "2024-04-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-67.06%"
+  },
+  {
+    "Business Date": "2024-04-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.81,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-72.84%"
+  },
+  {
+    "Business Date": "2024-04-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-67.47%"
+  },
+  {
+    "Business Date": "2024-04-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-64.0%"
+  },
+  {
+    "Business Date": "2024-04-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-68.29%"
+  },
+  {
+    "Business Date": "2024-04-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-67.11%"
+  },
+  {
+    "Business Date": "2024-04-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.24,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-71.43%"
+  },
+  {
+    "Business Date": "2024-04-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.87,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-67.82%"
+  },
+  {
+    "Business Date": "2024-05-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.42,
+    "COI Electronic EMEA": -0.35,
+    "COI/Rev EMEA(%)": "-49.3%"
+  },
+  {
+    "Business Date": "2024-05-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-32.18%"
+  },
+  {
+    "Business Date": "2024-05-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.55,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-30.12%"
+  },
+  {
+    "Business Date": "2024-05-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.1,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-66.67%"
+  },
+  {
+    "Business Date": "2024-05-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-39.39%"
+  },
+  {
+    "Business Date": "2024-05-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-50.77%"
+  },
+  {
+    "Business Date": "2024-05-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-38.96%"
+  },
+  {
+    "Business Date": "2024-05-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.42,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-44.26%"
+  },
+  {
+    "Business Date": "2024-05-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.42,
+    "COI Electronic EMEA": -0.35,
+    "COI/Rev EMEA(%)": "-49.3%"
+  },
+  {
+    "Business Date": "2024-05-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-32.18%"
+  },
+  {
+    "Business Date": "2024-05-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.55,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-30.12%"
+  },
+  {
+    "Business Date": "2024-05-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.1,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-66.67%"
+  },
+  {
+    "Business Date": "2024-05-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-39.39%"
+  },
+  {
+    "Business Date": "2024-05-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-50.77%"
+  },
+  {
+    "Business Date": "2024-05-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-38.96%"
+  },
+  {
+    "Business Date": "2024-05-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.42,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-44.26%"
+  },
+  {
+    "Business Date": "2024-06-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-36.99%"
+  },
+  {
+    "Business Date": "2024-06-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-34.67%"
+  },
+  {
+    "Business Date": "2024-06-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.23,
+    "Fees and Comm MTD Electronic EMEA": 0.57,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-40.0%"
+  },
+  {
+    "Business Date": "2024-06-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.57,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-36.84%"
+  },
+  {
+    "Business Date": "2024-06-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.15,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-41.94%"
+  },
+  {
+    "Business Date": "2024-06-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.46,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-51.72%"
+  },
+  {
+    "Business Date": "2024-06-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.6,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-37.93%"
+  },
+  {
+    "Business Date": "2024-06-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-54.84%"
+  },
+  {
+    "Business Date": "2024-06-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.15,
+    "Fees and Comm MTD Electronic EMEA": 0.53,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-39.71%"
+  },
+  {
+    "Business Date": "2024-06-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.13,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-53.7%"
+  },
+  {
+    "Business Date": "2024-06-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.16,
+    "Fees and Comm MTD Electronic EMEA": 0.6,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-34.21%"
+  },
+  {
+    "Business Date": "2024-06-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-40.0%"
+  },
+  {
+    "Business Date": "2024-06-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.56,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-40.24%"
+  },
+  {
+    "Business Date": "2024-06-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.18,
+    "Fees and Comm MTD Electronic EMEA": 0.55,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-41.1%"
+  },
+  {
+    "Business Date": "2024-06-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.24,
+    "Fees and Comm MTD Electronic EMEA": 0.45,
+    "COI Electronic EMEA": -0.31,
+    "COI/Rev EMEA(%)": "-44.93%"
+  },
+  {
+    "Business Date": "2024-06-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.15,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-58.93%"
+  },
+  {
+    "Business Date": "2024-06-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.18,
+    "Fees and Comm MTD Electronic EMEA": 0.46,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-45.31%"
+  },
+  {
+    "Business Date": "2024-06-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.42,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-42.86%"
+  },
+  {
+    "Business Date": "2024-06-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.51,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-32.89%"
+  },
+  {
+    "Business Date": "2024-06-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-34.21%"
+  },
+  {
+    "Business Date": "2024-07-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.11,
+    "Fees and Comm MTD Electronic EMEA": 0.56,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-44.78%"
+  },
+  {
+    "Business Date": "2024-07-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-36.78%"
+  },
+  {
+    "Business Date": "2024-07-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.58,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-45.33%"
+  },
+  {
+    "Business Date": "2024-07-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-41.94%"
+  },
+  {
+    "Business Date": "2024-07-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.23,
+    "Fees and Comm MTD Electronic EMEA": 0.44,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-37.31%"
+  },
+  {
+    "Business Date": "2024-07-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.16,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-44.0%"
+  },
+  {
+    "Business Date": "2024-07-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-45.0%"
+  },
+  {
+    "Business Date": "2024-07-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.11,
+    "Fees and Comm MTD Electronic EMEA": 0.46,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-57.89%"
+  },
+  {
+    "Business Date": "2024-07-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.55,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-37.5%"
+  },
+  {
+    "Business Date": "2024-07-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.21,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-37.14%"
+  },
+  {
+    "Business Date": "2024-07-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.46,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-41.67%"
+  },
+  {
+    "Business Date": "2024-07-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.23,
+    "Fees and Comm MTD Electronic EMEA": 0.42,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-52.31%"
+  },
+  {
+    "Business Date": "2024-07-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.15,
+    "Fees and Comm MTD Electronic EMEA": 0.56,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-35.21%"
+  },
+  {
+    "Business Date": "2024-07-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.23,
+    "Fees and Comm MTD Electronic EMEA": 0.46,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-46.38%"
+  },
+  {
+    "Business Date": "2024-07-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.13,
+    "Fees and Comm MTD Electronic EMEA": 0.58,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-46.48%"
+  },
+  {
+    "Business Date": "2024-07-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.35,
+    "COI/Rev EMEA(%)": "-44.87%"
+  },
+  {
+    "Business Date": "2024-07-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.6,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-31.11%"
+  },
+  {
+    "Business Date": "2024-07-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.2,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-46.03%"
+  },
+  {
+    "Business Date": "2024-07-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.16,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-44.0%"
+  },
+  {
+    "Business Date": "2024-07-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-41.18%"
+  },
+  {
+    "Business Date": "2024-07-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.53,
+    "COI Electronic EMEA": -0.31,
+    "COI/Rev EMEA(%)": "-38.75%"
+  },
+  {
+    "Business Date": "2024-07-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-44.83%"
+  },
+  {
+    "Business Date": "2024-07-31T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.45,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-52.63%"
+  },
+  {
+    "Business Date": "2024-08-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.45,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-46.77%"
+  },
+  {
+    "Business Date": "2024-08-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.21,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-47.06%"
+  },
+  {
+    "Business Date": "2024-08-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.4,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-44.78%"
+  },
+  {
+    "Business Date": "2024-08-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.23,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-45.45%"
+  },
+  {
+    "Business Date": "2024-08-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.22,
+    "Fees and Comm MTD Electronic EMEA": 0.51,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-36.99%"
+  },
+  {
+    "Business Date": "2024-08-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-37.18%"
+  },
+  {
+    "Business Date": "2024-08-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-44.44%"
+  },
+  {
+    "Business Date": "2024-08-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.56,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-37.65%"
+  },
+  {
+    "Business Date": "2024-08-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.16,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.31,
+    "COI/Rev EMEA(%)": "-47.69%"
+  },
+  {
+    "Business Date": "2024-08-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.22,
+    "Fees and Comm MTD Electronic EMEA": 0.52,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-44.59%"
+  },
+  {
+    "Business Date": "2024-08-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.11,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-55.17%"
+  },
+  {
+    "Business Date": "2024-08-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.18,
+    "Fees and Comm MTD Electronic EMEA": 0.54,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-40.28%"
+  },
+  {
+    "Business Date": "2024-08-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-43.42%"
+  },
+  {
+    "Business Date": "2024-08-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-45.33%"
+  },
+  {
+    "Business Date": "2024-08-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.11,
+    "Fees and Comm MTD Electronic EMEA": 0.51,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-43.55%"
+  },
+  {
+    "Business Date": "2024-08-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.13,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-47.62%"
+  },
+  {
+    "Business Date": "2024-08-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.15,
+    "Fees and Comm MTD Electronic EMEA": 0.55,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-45.71%"
+  },
+  {
+    "Business Date": "2024-08-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.46,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-44.74%"
+  },
+  {
+    "Business Date": "2024-08-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.16,
+    "Fees and Comm MTD Electronic EMEA": 0.52,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-47.06%"
+  },
+  {
+    "Business Date": "2024-08-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.11,
+    "Fees and Comm MTD Electronic EMEA": 0.45,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-57.14%"
+  },
+  {
+    "Business Date": "2024-08-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.21,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-42.25%"
+  },
+  {
+    "Business Date": "2024-08-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.53,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-42.5%"
+  },
+  {
+    "Business Date": "2024-09-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.22,
+    "Fees and Comm MTD Electronic EMEA": 0.57,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-40.51%"
+  },
+  {
+    "Business Date": "2024-09-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.16,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-45.31%"
+  },
+  {
+    "Business Date": "2024-09-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-43.94%"
+  },
+  {
+    "Business Date": "2024-09-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.46,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-58.62%"
+  },
+  {
+    "Business Date": "2024-09-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-38.96%"
+  },
+  {
+    "Business Date": "2024-09-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.11,
+    "Fees and Comm MTD Electronic EMEA": 0.52,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-46.03%"
+  },
+  {
+    "Business Date": "2024-09-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-52.63%"
+  },
+  {
+    "Business Date": "2024-09-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-42.67%"
+  },
+  {
+    "Business Date": "2024-09-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.13,
+    "Fees and Comm MTD Electronic EMEA": 0.55,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-38.24%"
+  },
+  {
+    "Business Date": "2024-09-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.54,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-37.88%"
+  },
+  {
+    "Business Date": "2024-09-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.57,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-35.71%"
+  },
+  {
+    "Business Date": "2024-09-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.16,
+    "Fees and Comm MTD Electronic EMEA": 0.4,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-44.64%"
+  },
+  {
+    "Business Date": "2024-09-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.6,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-32.47%"
+  },
+  {
+    "Business Date": "2024-09-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-45.45%"
+  },
+  {
+    "Business Date": "2024-09-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-36.99%"
+  },
+  {
+    "Business Date": "2024-09-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.18,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-49.23%"
+  },
+  {
+    "Business Date": "2024-09-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.18,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-40.0%"
+  },
+  {
+    "Business Date": "2024-09-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-41.18%"
+  },
+  {
+    "Business Date": "2024-09-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.1,
+    "Fees and Comm MTD Electronic EMEA": 0.52,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-45.16%"
+  },
+  {
+    "Business Date": "2024-09-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.52,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-46.88%"
+  },
+  {
+    "Business Date": "2024-09-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.24,
+    "Fees and Comm MTD Electronic EMEA": 0.52,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-34.21%"
+  },
+  {
+    "Business Date": "2024-10-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.52,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-33.33%"
+  },
+  {
+    "Business Date": "2024-10-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.22,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-37.14%"
+  },
+  {
+    "Business Date": "2024-10-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.21,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-42.19%"
+  },
+  {
+    "Business Date": "2024-10-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-57.89%"
+  },
+  {
+    "Business Date": "2024-10-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.24,
+    "Fees and Comm MTD Electronic EMEA": 0.53,
+    "COI Electronic EMEA": -0.31,
+    "COI/Rev EMEA(%)": "-40.26%"
+  },
+  {
+    "Business Date": "2024-10-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.24,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-52.31%"
+  },
+  {
+    "Business Date": "2024-10-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.17,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-58.62%"
+  },
+  {
+    "Business Date": "2024-10-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-35.62%"
+  },
+  {
+    "Business Date": "2024-10-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.1,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-56.14%"
+  },
+  {
+    "Business Date": "2024-10-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.18,
+    "Fees and Comm MTD Electronic EMEA": 0.54,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-47.22%"
+  },
+  {
+    "Business Date": "2024-10-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.47,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-41.1%"
+  },
+  {
+    "Business Date": "2024-10-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.58,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-38.57%"
+  },
+  {
+    "Business Date": "2024-10-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-32.47%"
+  },
+  {
+    "Business Date": "2024-10-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.22,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-39.44%"
+  },
+  {
+    "Business Date": "2024-10-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-34.52%"
+  },
+  {
+    "Business Date": "2024-10-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-58.18%"
+  },
+  {
+    "Business Date": "2024-10-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-43.86%"
+  },
+  {
+    "Business Date": "2024-10-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.58,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-33.77%"
+  },
+  {
+    "Business Date": "2024-10-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.42,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-50.0%"
+  },
+  {
+    "Business Date": "2024-10-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-36.23%"
+  },
+  {
+    "Business Date": "2024-10-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.56,
+    "COI Electronic EMEA": -0.32,
+    "COI/Rev EMEA(%)": "-45.71%"
+  },
+  {
+    "Business Date": "2024-10-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.53,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-41.25%"
+  },
+  {
+    "Business Date": "2024-10-31T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.46,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-40.28%"
+  },
+  {
+    "Business Date": "2024-11-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.13,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-40.28%"
+  },
+  {
+    "Business Date": "2024-11-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.2,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-42.62%"
+  },
+  {
+    "Business Date": "2024-11-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.22,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-47.62%"
+  },
+  {
+    "Business Date": "2024-11-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.15,
+    "Fees and Comm MTD Electronic EMEA": 0.53,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-39.71%"
+  },
+  {
+    "Business Date": "2024-11-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-53.23%"
+  },
+  {
+    "Business Date": "2024-11-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.19,
+    "Fees and Comm MTD Electronic EMEA": 0.48,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-44.78%"
+  },
+  {
+    "Business Date": "2024-11-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.51,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-43.42%"
+  },
+  {
+    "Business Date": "2024-11-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.22,
+    "Fees and Comm MTD Electronic EMEA": 0.41,
+    "COI Electronic EMEA": -0.35,
+    "COI/Rev EMEA(%)": "-55.56%"
+  },
+  {
+    "Business Date": "2024-11-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.15,
+    "Fees and Comm MTD Electronic EMEA": 0.58,
+    "COI Electronic EMEA": -0.34,
+    "COI/Rev EMEA(%)": "-46.58%"
+  },
+  {
+    "Business Date": "2024-11-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.1,
+    "Fees and Comm MTD Electronic EMEA": 0.52,
+    "COI Electronic EMEA": -0.29,
+    "COI/Rev EMEA(%)": "-46.77%"
+  },
+  {
+    "Business Date": "2024-11-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.59,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-36.99%"
+  },
+  {
+    "Business Date": "2024-11-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.18,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.26,
+    "COI/Rev EMEA(%)": "-38.24%"
+  },
+  {
+    "Business Date": "2024-11-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.53,
+    "COI Electronic EMEA": -0.33,
+    "COI/Rev EMEA(%)": "-49.25%"
+  },
+  {
+    "Business Date": "2024-11-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.3,
+    "COI/Rev EMEA(%)": "-41.67%"
+  },
+  {
+    "Business Date": "2024-11-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.5,
+    "COI Electronic EMEA": -0.31,
+    "COI/Rev EMEA(%)": "-50.0%"
+  },
+  {
+    "Business Date": "2024-11-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.23,
+    "Fees and Comm MTD Electronic EMEA": 0.51,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-37.84%"
+  },
+  {
+    "Business Date": "2024-11-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.12,
+    "Fees and Comm MTD Electronic EMEA": 0.43,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-49.09%"
+  },
+  {
+    "Business Date": "2024-11-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.14,
+    "Fees and Comm MTD Electronic EMEA": 0.44,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-43.1%"
+  },
+  {
+    "Business Date": "2024-11-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.45,
+    "COI Electronic EMEA": -0.28,
+    "COI/Rev EMEA(%)": "-39.44%"
+  },
+  {
+    "Business Date": "2024-11-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.23,
+    "Fees and Comm MTD Electronic EMEA": 0.49,
+    "COI Electronic EMEA": -0.25,
+    "COI/Rev EMEA(%)": "-34.72%"
+  },
+  {
+    "Business Date": "2024-11-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.1,
+    "Fees and Comm MTD Electronic EMEA": 0.42,
+    "COI Electronic EMEA": -0.27,
+    "COI/Rev EMEA(%)": "-51.92%"
+  },
+  {
+    "Business Date": "2024-12-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-71.62%"
+  },
+  {
+    "Business Date": "2024-12-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-77.03%"
+  },
+  {
+    "Business Date": "2024-12-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.45,
+    "COI/Rev EMEA(%)": "-57.69%"
+  },
+  {
+    "Business Date": "2024-12-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.87,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-62.07%"
+  },
+  {
+    "Business Date": "2024-12-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-67.11%"
+  },
+  {
+    "Business Date": "2024-12-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-63.01%"
+  },
+  {
+    "Business Date": "2024-12-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-67.53%"
+  },
+  {
+    "Business Date": "2024-12-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-69.05%"
+  },
+  {
+    "Business Date": "2024-12-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-70.0%"
+  },
+  {
+    "Business Date": "2024-12-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-68.35%"
+  },
+  {
+    "Business Date": "2024-12-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.47,
+    "COI/Rev EMEA(%)": "-67.14%"
+  },
+  {
+    "Business Date": "2024-12-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.81,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-72.84%"
+  },
+  {
+    "Business Date": "2024-12-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-69.44%"
+  },
+  {
+    "Business Date": "2024-12-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-64.0%"
+  },
+  {
+    "Business Date": "2024-12-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-70.51%"
+  },
+  {
+    "Business Date": "2024-12-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-69.41%"
+  },
+  {
+    "Business Date": "2024-12-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-68.67%"
+  },
+  {
+    "Business Date": "2024-12-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-67.11%"
+  },
+  {
+    "Business Date": "2024-12-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-68.29%"
+  },
+  {
+    "Business Date": "2024-12-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-67.44%"
+  },
+  {
+    "Business Date": "2024-12-31T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-65.71%"
+  },
+  {
+    "Business Date": "2025-01-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-76.0%"
+  },
+  {
+    "Business Date": "2025-01-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-74.67%"
+  },
+  {
+    "Business Date": "2025-01-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.89,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-64.04%"
+  },
+  {
+    "Business Date": "2025-01-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-72.73%"
+  },
+  {
+    "Business Date": "2025-01-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.81,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-70.37%"
+  },
+  {
+    "Business Date": "2025-01-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-69.44%"
+  },
+  {
+    "Business Date": "2025-01-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-69.74%"
+  },
+  {
+    "Business Date": "2025-01-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-69.62%"
+  },
+  {
+    "Business Date": "2025-01-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-69.41%"
+  },
+  {
+    "Business Date": "2025-01-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-69.23%"
+  },
+  {
+    "Business Date": "2025-01-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-67.47%"
+  },
+  {
+    "Business Date": "2025-01-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-65.0%"
+  },
+  {
+    "Business Date": "2025-01-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-70.0%"
+  },
+  {
+    "Business Date": "2025-01-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-69.05%"
+  },
+  {
+    "Business Date": "2025-01-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-68.92%"
+  },
+  {
+    "Business Date": "2025-01-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-65.75%"
+  },
+  {
+    "Business Date": "2025-01-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-68.6%"
+  },
+  {
+    "Business Date": "2025-01-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.87,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-65.52%"
+  },
+  {
+    "Business Date": "2025-01-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-67.11%"
+  },
+  {
+    "Business Date": "2025-01-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-68.29%"
+  },
+  {
+    "Business Date": "2025-01-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.24,
+    "Fees and Comm MTD Electronic EMEA": 0.71,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-70.42%"
+  },
+  {
+    "Business Date": "2025-01-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-69.51%"
+  },
+  {
+    "Business Date": "2025-01-31T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-65.71%"
+  },
+  {
+    "Business Date": "2025-02-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-58.54%"
+  },
+  {
+    "Business Date": "2025-02-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-62.79%"
+  },
+  {
+    "Business Date": "2025-02-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.89,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-57.3%"
+  },
+  {
+    "Business Date": "2025-02-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.81,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-59.26%"
+  },
+  {
+    "Business Date": "2025-02-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.6,
+    "COI/Rev EMEA(%)": "-75.95%"
+  },
+  {
+    "Business Date": "2025-02-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-65.79%"
+  },
+  {
+    "Business Date": "2025-02-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-70.27%"
+  },
+  {
+    "Business Date": "2025-02-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-71.43%"
+  },
+  {
+    "Business Date": "2025-02-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-70.0%"
+  },
+  {
+    "Business Date": "2025-02-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.47,
+    "COI/Rev EMEA(%)": "-64.38%"
+  },
+  {
+    "Business Date": "2025-02-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-67.95%"
+  },
+  {
+    "Business Date": "2025-02-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-70.24%"
+  },
+  {
+    "Business Date": "2025-02-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-70.0%"
+  },
+  {
+    "Business Date": "2025-02-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.88,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-67.05%"
+  },
+  {
+    "Business Date": "2025-02-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-72.0%"
+  },
+  {
+    "Business Date": "2025-02-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-69.88%"
+  },
+  {
+    "Business Date": "2025-02-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-67.06%"
+  },
+  {
+    "Business Date": "2025-02-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-68.6%"
+  },
+  {
+    "Business Date": "2025-02-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-70.83%"
+  },
+  {
+    "Business Date": "2025-02-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.71,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-70.42%"
+  },
+  {
+    "Business Date": "2025-03-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-63.41%"
+  },
+  {
+    "Business Date": "2025-03-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-66.67%"
+  },
+  {
+    "Business Date": "2025-03-05T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.45,
+    "COI/Rev EMEA(%)": "-60.81%"
+  },
+  {
+    "Business Date": "2025-03-06T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-73.68%"
+  },
+  {
+    "Business Date": "2025-03-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-68.35%"
+  },
+  {
+    "Business Date": "2025-03-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.47,
+    "COI/Rev EMEA(%)": "-65.28%"
+  },
+  {
+    "Business Date": "2025-03-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-66.67%"
+  },
+  {
+    "Business Date": "2025-03-12T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-68.24%"
+  },
+  {
+    "Business Date": "2025-03-13T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.71,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-64.79%"
+  },
+  {
+    "Business Date": "2025-03-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-71.43%"
+  },
+  {
+    "Business Date": "2025-03-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-68.6%"
+  },
+  {
+    "Business Date": "2025-03-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-68.49%"
+  },
+  {
+    "Business Date": "2025-03-19T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.48,
+    "COI/Rev EMEA(%)": "-68.57%"
+  },
+  {
+    "Business Date": "2025-03-20T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-66.22%"
+  },
+  {
+    "Business Date": "2025-03-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-70.51%"
+  },
+  {
+    "Business Date": "2025-03-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-65.71%"
+  },
+  {
+    "Business Date": "2025-03-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-68.29%"
+  },
+  {
+    "Business Date": "2025-03-26T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.87,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-67.82%"
+  },
+  {
+    "Business Date": "2025-03-27T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-67.11%"
+  },
+  {
+    "Business Date": "2025-03-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-68.67%"
+  },
+  {
+    "Business Date": "2025-03-31T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-65.82%"
+  },
+  {
+    "Business Date": "2025-04-01T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.85,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-68.24%"
+  },
+  {
+    "Business Date": "2025-04-02T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.32,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.53,
+    "COI/Rev EMEA(%)": "-67.09%"
+  },
+  {
+    "Business Date": "2025-04-03T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.77,
+    "COI Electronic EMEA": -0.54,
+    "COI/Rev EMEA(%)": "-70.13%"
+  },
+  {
+    "Business Date": "2025-04-04T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.38,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-77.63%"
+  },
+  {
+    "Business Date": "2025-04-07T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.27,
+    "Fees and Comm MTD Electronic EMEA": 0.76,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-72.37%"
+  },
+  {
+    "Business Date": "2025-04-08T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.25,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-71.43%"
+  },
+  {
+    "Business Date": "2025-04-09T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.37,
+    "Fees and Comm MTD Electronic EMEA": 0.82,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-69.51%"
+  },
+  {
+    "Business Date": "2025-04-10T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.29,
+    "Fees and Comm MTD Electronic EMEA": 0.73,
+    "COI Electronic EMEA": -0.49,
+    "COI/Rev EMEA(%)": "-67.12%"
+  },
+  {
+    "Business Date": "2025-04-11T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.35,
+    "Fees and Comm MTD Electronic EMEA": 0.78,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-71.79%"
+  },
+  {
+    "Business Date": "2025-04-14T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.71,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-64.79%"
+  },
+  {
+    "Business Date": "2025-04-15T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.72,
+    "COI Electronic EMEA": -0.47,
+    "COI/Rev EMEA(%)": "-65.28%"
+  },
+  {
+    "Business Date": "2025-04-16T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.39,
+    "Fees and Comm MTD Electronic EMEA": 0.8,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-73.75%"
+  },
+  {
+    "Business Date": "2025-04-17T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.84,
+    "COI Electronic EMEA": -0.56,
+    "COI/Rev EMEA(%)": "-66.67%"
+  },
+  {
+    "Business Date": "2025-04-18T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.31,
+    "Fees and Comm MTD Electronic EMEA": 0.86,
+    "COI Electronic EMEA": -0.58,
+    "COI/Rev EMEA(%)": "-67.44%"
+  },
+  {
+    "Business Date": "2025-04-21T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.4,
+    "Fees and Comm MTD Electronic EMEA": 0.83,
+    "COI Electronic EMEA": -0.57,
+    "COI/Rev EMEA(%)": "-68.67%"
+  },
+  {
+    "Business Date": "2025-04-22T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.33,
+    "Fees and Comm MTD Electronic EMEA": 0.74,
+    "COI Electronic EMEA": -0.5,
+    "COI/Rev EMEA(%)": "-67.57%"
+  },
+  {
+    "Business Date": "2025-04-23T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.26,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.46,
+    "COI/Rev EMEA(%)": "-65.71%"
+  },
+  {
+    "Business Date": "2025-04-24T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.28,
+    "Fees and Comm MTD Electronic EMEA": 0.75,
+    "COI Electronic EMEA": -0.52,
+    "COI/Rev EMEA(%)": "-69.33%"
+  },
+  {
+    "Business Date": "2025-04-25T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.36,
+    "Fees and Comm MTD Electronic EMEA": 0.79,
+    "COI Electronic EMEA": -0.55,
+    "COI/Rev EMEA(%)": "-69.62%"
+  },
+  {
+    "Business Date": "2025-04-28T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.24,
+    "Fees and Comm MTD Electronic EMEA": 0.7,
+    "COI Electronic EMEA": -0.45,
+    "COI/Rev EMEA(%)": "-64.29%"
+  },
+  {
+    "Business Date": "2025-04-29T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.3,
+    "Fees and Comm MTD Electronic EMEA": 0.81,
+    "COI Electronic EMEA": -0.51,
+    "COI/Rev EMEA(%)": "-62.96%"
+  },
+  {
+    "Business Date": "2025-04-30T00:00:00Z",
+    "Formal MTD Balance Electronic EMEA": 0.34,
+    "Fees and Comm MTD Electronic EMEA": 0.88,
+    "COI Electronic EMEA": -0.59,
+    "COI/Rev EMEA(%)": "-67.05%"
+  }
+]

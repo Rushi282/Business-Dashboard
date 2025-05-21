@@ -1,11 +1,17 @@
-import { StrictMode } from "react";
+import React from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+import { Provider } from "react-redux";
+import { store } from "./store";
+import MainPage from "./MainPage.jsx";
+import TestPage from "./TestPage.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+  <React.StrictMode>
+    <Provider store={store}>
+      <MainPage />
+      <TestPage />
+    </Provider>
+  </React.StrictMode>
 );
