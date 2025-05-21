@@ -1,9 +1,12 @@
-const MONTHS = [
+export const MONTHS = [
   "Jan", "Feb", "Mar", "Apr", "May", "Jun",
   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 ];
 
 export const filterDataByDate = (data, customDate = new Date()) => {
+  if (!(customDate instanceof Date)) {
+    customDate = new Date(customDate);
+  }
   const targetDateStr = customDate.toDateString();
   const targetYear = customDate.getFullYear();
   const targetMonth = customDate.getMonth();
@@ -73,17 +76,14 @@ export const filterDataByDate = (data, customDate = new Date()) => {
 };
 
 
-// Function to extract a specific key from the filtered data
-export const filterKeyData = (filteredData, dataKey) => {
-  // Process each year and extract the desired key (e.g., grossCommissions, netRevenue)
-  return filteredData.map((yearData) => {
-    const { year, data } = yearData;
-    const monthlyData = {};
+export const filterKeyData = (filteredData, dataKey) =>
+  filteredData
+    .map(({ year, data }) => ({
+      year,
+      data: Object.fromEntries(
+        MONTHS.map((month) => [month, data[month]?.[dataKey] ?? null])
+      ),
+    }))
+    .sort((a, b) => a.year - b.year);
 
-    MONTHS.forEach((month) => {
-      monthlyData[month] = data[month] ? data[month][dataKey] : null;
-    });
 
-    return { year, data: monthlyData };
-  });
-};

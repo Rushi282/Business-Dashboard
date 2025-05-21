@@ -3,7 +3,7 @@ import useDashboardData from "./hook/useDashboardData";
 import { filterKeyData, filterDataByDate } from "./helper/filters";
 
 export default function TestPage() {
-  const { mtd, ytd, std, users } = useDashboardData();
+  const { mtd, ytd, std, marketshare } = useDashboardData();
   const [monthlyData, setMonthlyData] = useState(null);
 
   useEffect(() => {
@@ -26,12 +26,12 @@ export default function TestPage() {
   console.log("MTD:", mtd);
   console.log("YTD:", ytd);
   console.log("STD:", std);
-  console.log("MARKETSHARE:", users);
+  console.log("MARKETSHARE:", marketshare);
 
   return (
     <div>
       <h1>Dashboard Data</h1>
-      <pre>{JSON.stringify({ mtd, ytd, std, users }, null, 2)}</pre>
+      <pre>{JSON.stringify({ mtd, ytd, std, marketshare }, null, 2)}</pre>
 
       <h2>Monthly Data (Gross Commissions)</h2>
       <pre>{JSON.stringify(monthlyData, null, 2)}</pre>

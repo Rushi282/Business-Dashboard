@@ -9,7 +9,7 @@ const MainPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [mtdRes, ytdRes, stdRes, usersRes] = await Promise.all([
+        const [mtdRes, ytdRes, stdRes, marketshareRes] = await Promise.all([
           axios.get("/mock/mtd.json"),
           axios.get("/mock/ytd.json"),
           axios.get("/mock/std.json"),
@@ -19,13 +19,13 @@ const MainPage = () => {
         processData("MTD", mtdRes.data, dispatch);
         processData("YTD", ytdRes.data, dispatch);
         processData("STD", stdRes.data, dispatch);
-        processData("MARKETSHARE", usersRes.data, dispatch);
+        processData("MARKETSHARE", marketshareRes.data, dispatch);
       } catch (error) {
         console.error("Failed to fetch API data:", error);
       }
     };
 
-      fetchData();
+    fetchData();
   }, [dispatch]);
 
   return <div>Loading...</div>;

@@ -7,7 +7,8 @@ const useDashboardData = () => {
       mtd: state.data.mtd,
       ytd: state.data.ytd,
       std: state.data.std,
-      users: state.data.users,
+      marketshare: state.data.marketshare,
+      globalDate: state.data.globalDate,
     }),
     shallowEqual
   );    
