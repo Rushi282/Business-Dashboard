@@ -1,115 +1,130 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
+import useDashboardData from "../hook/useDashboardData"; // same hook
+import { filterDataByDate, filterKeyData, MONTHS } from "../helper/filters";
+import getYearGroups from "../helper/graphelper";
 
 const GrossCommCOI = () => {
-  const options = {
-    chart: {
-      zooming: {
-        type: "xy",
-      },
-    },
-    title: {
-      text: "Gross Commissions & Cost of Income",
-      align: "center",
-    },
+  const { mtd, globalDate } = useDashboardData();
+  const [categories, setCategories] = useState([]);
+  const [yearsPerCategory, setYearsPerCategory] = useState([]);
+  const [seriesData, setSeriesData] = useState([]);
 
-    xAxis: [
-      {
-        categories: [
-          "Jan",
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-          "Oct",
-          "Nov",
-          "Dec",
-        ],
-        crosshair: true,
-      },
-    ],
-    yAxis: [
-      {
-        // Primary yAxis
-        labels: {
-          enabled: false,
-        },
-        title: {
-          text: null,
-        },
-      },
-      {
-        // Secondary yAxis
-        labels: {
-          enabled: false,
-        },
-        title: {
-          text: null,
-        },
-        opposite: true,
-      },
-    ],
-    tooltip: {
-      shared: true,
-    },
-    legend: {
-      align: "center",
-      verticalAlign: "bottom",
-      backgroundColor:
-        Highcharts.defaultOptions.legend.backgroundColor || // theme
-        "rgba(255,255,255,0.25)",
-    },
-    series: [
+  useEffect(() => {
+    if (!mtd || mtd.length === 0) return;
+
+    const filteredData = filterDataByDate(mtd, globalDate);
+
+    // Get each data set filtered by key
+    const grossCommissionsData = filterKeyData(
+      filteredData,
+      "grossCommissions"
+    );
+    const costOfIncomeData = filterKeyData(filteredData, "costOfIncome");
+    const percentageCOIData = filterKeyData(filteredData, "percentageCOI");
+    const cat = [];
+    const yearLabels = [];
+    const grossValues = [];
+    const costValues = [];
+    const percentageValues = [];
+
+    grossCommissionsData.forEach((entry) => {
+      const year = entry.year;
+      MONTHS.forEach((month) => {
+        const grossValRaw = entry.data?.[month];
+        const costValRaw = costOfIncomeData.find((d) => d.year === year)
+          ?.data?.[month];
+        const percValRaw = percentageCOIData.find((d) => d.year === year)
+          ?.data?.[month];
+
+        const grossVal = grossValRaw != null ? Math.abs(grossValRaw) : 0;
+        const costVal = costValRaw != null ? Math.abs(costValRaw) : 0;
+        const percVal = percValRaw != null ? Math.abs(percValRaw) : 0;
+
+        if (grossVal !== 0 || costVal !== 0 || percVal !== 0) {
+          cat.push(month);
+          yearLabels.push(year);
+          grossValues.push(grossVal);
+          costValues.push(costVal);
+          percentageValues.push(percVal);
+        }
+      });
+    });
+
+    setCategories(cat);
+    setYearsPerCategory(yearLabels);
+
+    setSeriesData([
       {
         name: "Gross Commissions",
         type: "column",
         yAxis: 1,
-        data: [
-          45.7, 37.0, 28.9, 17.1, 39.2, 18.9, 90.2, 78.5, 74.6, 18.7, 17.1,
-          16.0,
-        ],
-        tooltip: {
-          valueSuffix: "",
-        },
+        data: grossValues,
         color: "#023e8a",
+        tooltip: { valueSuffix: "" },
       },
       {
         name: "Cost of Income",
         type: "column",
         yAxis: 1,
-        data: [
-          40.7, 45.0, 30.9, 27.1, 30.2, 22.9, 75.2, 53.5, 65.6, 22.7, 36.1,
-          33.0,
-        ],
-        tooltip: {
-          valueSuffix: "",
-        },
+        data: costValues,
         color: "#00b4d8",
+        tooltip: { valueSuffix: "" },
       },
       {
         name: "COI % of Gross Commission",
         type: "spline",
-        data: [
-          -11.4, -9.5, -14.2, 0.2, 7.0, 12.1, 13.5, 13.6, 8.2, -2.8, -12.0,
-          -15.5,
-        ],
-        tooltip: {
-          valueSuffix: " %",
+        data: percentageValues,
+        color: "#0077b6",
+        tooltip: { valueSuffix: " %" },
+      },
+    ]);
+  }, [mtd, globalDate]);
+
+  const options = {
+    chart: { zooming: { type: "xy" } },
+    title: { text: "Gross Commissions & Cost of Income", align: "center" },
+    xAxis: [
+      {
+        categories,
+        crosshair: true,
+      },
+      {
+        categories: getYearGroups(categories, yearsPerCategory),
+        linkedTo: 0,
+        labels: {
+          y: 30,
+          style: { fontWeight: "bold", fontSize: "13px" },
         },
-        color: "#00b4d8",
+        lineWidth: 0,
+        tickLength: 0,
+        offset: 20,
       },
     ],
+    yAxis: [
+      {
+        labels: { enabled: false },
+        title: { text: null },
+      },
+      {
+        labels: { enabled: false },
+        title: { text: null },
+        opposite: true,
+      },
+    ],
+    tooltip: { shared: true },
+    legend: {
+      align: "center",
+      verticalAlign: "bottom",
+      backgroundColor:
+        Highcharts.defaultOptions.legend.backgroundColor ||
+        "rgba(255,255,255,0.25)",
+    },
+    series: seriesData,
   };
-  return (
-    <>
-      <HighchartsReact highcharts={Highcharts} options={options} />
-    </>
-  );
+
+  return <HighchartsReact highcharts={Highcharts} options={options} />;
 };
 
 export default GrossCommCOI;
