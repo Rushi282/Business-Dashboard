@@ -48,7 +48,7 @@ export const filterDataByDate = (data, customDate = new Date()) => {
   const result = [];
 
   for (const year of allYears) {
-    const monthlyResult  = {};
+    const monthlyResult = {};
     let hasValidData = false;
 
     for (let monthIndex = 0; monthIndex < MONTHS.length; monthIndex++) {
