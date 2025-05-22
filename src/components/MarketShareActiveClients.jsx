@@ -35,16 +35,11 @@ const MarketShareActiveClients = () => {
     yAxis: [
       {
         // Primary yAxis
-        labels: {
-          format: "{value}°C",
-          style: {
-            color: Highcharts.getOptions().colors[2],
-          },
-        },
+        labels: {},
         title: {
-          text: "Temperature",
+          text: null,
           style: {
-            color: Highcharts.getOptions().colors[2],
+            color: "#000",
           },
         },
         opposite: true,
@@ -53,17 +48,9 @@ const MarketShareActiveClients = () => {
         // Secondary yAxis
         gridLineWidth: 0,
         title: {
-          text: "Rainfall",
-          style: {
-            color: Highcharts.getOptions().colors[0],
-          },
+          text: null,
         },
-        labels: {
-          format: "{value} mm",
-          style: {
-            color: Highcharts.getOptions().colors[0],
-          },
-        },
+        labels: {},
       },
       {
         // Tertiary yAxis
@@ -99,7 +86,7 @@ const MarketShareActiveClients = () => {
     },
     series: [
       {
-        name: "Rainfall",
+        name: "Active Client(2024)",
         type: "column",
         yAxis: 1,
         data: [
@@ -107,11 +94,23 @@ const MarketShareActiveClients = () => {
           95.6, 54.4,
         ],
         tooltip: {
-          valueSuffix: " mm",
+          valueSuffix: "",
         },
       },
       {
-        name: "Sea-Level Pressure",
+        name: "Active Client(2025)",
+        type: "column",
+        yAxis: 1,
+        data: [
+          49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1,
+          95.6, 54.4,
+        ],
+        tooltip: {
+          valueSuffix: "",
+        },
+      },
+      {
+        name: "Market Share(2024)",
         type: "spline",
         yAxis: 2,
         data: [
@@ -121,19 +120,19 @@ const MarketShareActiveClients = () => {
         marker: {
           enabled: false,
         },
-        dashStyle: "shortdot",
+        // dashStyle: "shortdot",
         tooltip: {
-          valueSuffix: " mb",
+          valueSuffix: "",
         },
       },
       {
-        name: "Temperature",
+        name: "Market Share(2025)",
         type: "spline",
         data: [
           7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6,
         ],
         tooltip: {
-          valueSuffix: " °C",
+          valueSuffix: "",
         },
       },
     ],
