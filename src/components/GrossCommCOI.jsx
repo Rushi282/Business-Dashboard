@@ -111,6 +111,7 @@ const GrossCommCOI = () => {
         labels: { enabled: false },
         title: { text: null },
         opposite: true,
+        min: 0,
       },
     ],
     tooltip: { shared: true },
