@@ -63,6 +63,14 @@ const GrossCommCOI = () => {
         data: grossValues,
         color: "#023e8a",
         tooltip: { valueSuffix: "" },
+        dataLabels: {
+          enabled: true,
+          format: "{point.y:f}",
+          rotation: -90,
+          align: "right",
+          x: 5, // Fine-tune X position
+          y: 4,
+        },
       },
       {
         name: "Cost of Income",
@@ -71,6 +79,14 @@ const GrossCommCOI = () => {
         data: costValues,
         color: "#00b4d8",
         tooltip: { valueSuffix: "" },
+        dataLabels: {
+          enabled: true,
+          format: "{point.y:f}",
+          rotation: -90,
+          align: "right",
+          x: 5, // Fine-tune X position
+          y: 4,
+        },
       },
       {
         name: "COI % of Gross Commission",
@@ -78,6 +94,11 @@ const GrossCommCOI = () => {
         data: percentageValues,
         color: "#0077b6",
         tooltip: { valueSuffix: " %" },
+        dataLabels: {
+          enabled: true,
+          format: "{point.y}%",
+          y: -10, // Adjust label position if needed
+        },
       },
     ]);
   }, [mtd, globalDate]);
@@ -121,6 +142,14 @@ const GrossCommCOI = () => {
       backgroundColor:
         Highcharts.defaultOptions.legend.backgroundColor ||
         "rgba(255,255,255,0.25)",
+    },
+    plotOptions: {
+      column: {
+        pointPadding: 0.1,
+        groupPadding: 0.2,
+        borderWidth: 0,
+      },
+      series: {},
     },
     series: seriesData,
   };
