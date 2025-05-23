@@ -1,4 +1,4 @@
-import { setMTD, setYTD, setSTD, setMarketShare } from "../store/dataSlice";
+import { setMTD, setYTD, setSTP, setMarketShare } from "../store/dataSlice";
 
 const KEY_MAPPINGS = {
   MTD: {
@@ -34,7 +34,7 @@ const transformRow = (row, mapping) =>
     let value = row[sourceKey];
 
     if (value === undefined) {
-      console.warn(`Missing key: "${sourceKey}"`);
+      // console.warn(`Missing key: "${sourceKey}"`);
       acc[targetKey] = null;
       return acc;
     }
@@ -47,8 +47,8 @@ const transformRow = (row, mapping) =>
     return acc;
   }, {});
 
-//STD Processing Logic
-const processSTD = (rawData) => {
+//STP Processing Logic
+const processSTP = (rawData) => {
   return rawData
     .filter((row) => row.C1 === "Electronic EMEA")
     .map((row) => ({
@@ -71,9 +71,9 @@ const processData = (type, rawData, dispatch) => {
     return;
   }
 
-  if (type === "STD") {
-    const stdData = processSTD(rawData);
-    dispatch(setSTD(stdData));
+  if (type === "STP") {
+    const stpData = processSTP(rawData);
+    dispatch(setSTP(stpData));
     return;
   }
 

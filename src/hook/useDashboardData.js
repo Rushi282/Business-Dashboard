@@ -6,8 +6,8 @@ const useDashboardData = () => {
     (state) => ({
       mtd: state.data.mtd,
       ytd: state.data.ytd,
-      std: state.data.std,
-      marketshare: state.data.marketshare,
+      stp: state.data.stp,
+      marketShare: state.data.marketShare,
       globalDate: state.data.globalDate,
     }),
     shallowEqual

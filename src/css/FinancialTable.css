@@ -14,14 +14,17 @@ td {
   height: 50px !important;
 }
 
-.f-table tbody tr td {
+/* .f-table tbody tr td {
   border-top: none !important;
   border-bottom: none !important;
-}
+} */
 
 .cross {
   background-color: #023e8a !important;
   width: 20%;
+}
+.negative {
+  color: red;
 }
 
 .t-head {
