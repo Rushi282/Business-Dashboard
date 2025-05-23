@@ -101,6 +101,16 @@ const GrossCommission = () => {
         groupPadding: 0.2,
         borderWidth: 0,
       },
+      series: {
+        dataLabels: {
+          enabled: true,
+          format: "{point.y:f}",
+          rotation: -90,
+          align: "right",
+          x: 5, // Fine-tune X position
+          y: 4,
+        },
+      },
     },
     series: seriesData,
   };
