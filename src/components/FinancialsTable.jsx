@@ -12,16 +12,20 @@ const metricConfig = [
 ];
 
 const calculateYOY = function (current, previous) {
+  if (current === "N/A" || previous === "N/A") return "N/A";
+
   current = Number(current);
   previous = Number(previous);
 
-  if (!previous || previous === 0) return "N/A";
+  if (!previous || previous === 0 || isNaN(current) || isNaN(previous)) {
+    return "N/A";
+  }
 
   return (Math.abs((current - previous) / previous) * 100).toFixed(2);
 };
 
 const extractMetricValues = (data, key, yearIndex, month) =>
-  data?.[yearIndex]?.data?.[month] ?? 0;
+  data?.[yearIndex]?.data?.[month] ?? "N/A";
 
 const prepareMetricData = (
   mtd,
@@ -50,7 +54,9 @@ const prepareMetricData = (
       val24: mtdVal2024,
       val25: mtdVal2025,
       yoy: isPercentage
-        ? Math.abs(Number(mtdVal2025) - Number(mtdVal2024)).toFixed(2)
+        ? mtdVal2025 === "N/A" || mtdVal2024 === "N/A"
+          ? "N/A"
+          : Math.abs(Number(mtdVal2025) - Number(mtdVal2024)).toFixed(2)
         : calculateYOY(mtdVal2025, mtdVal2024),
       stp: isPercentage ? "" : monthlyTarget,
     },
@@ -58,8 +64,11 @@ const prepareMetricData = (
       val24: ytdVal2024,
       val25: ytdVal2025,
       yoy: isPercentage
-        ? Math.abs(Number(ytdVal2025) - Number(ytdVal2024)).toFixed(2)
+        ? ytdVal2025 === "N/A" || ytdVal2024 === "N/A"
+          ? "N/A"
+          : Math.abs(Number(ytdVal2025) - Number(ytdVal2024)).toFixed(2)
         : calculateYOY(ytdVal2025, ytdVal2024),
+
       stp: isPercentage ? "" : monthlyTarget,
     },
   };
@@ -116,8 +125,11 @@ const FinancialsTable = () => {
         metrics[3].ytd.stp = (coi.ytd.stp / gross.ytd.stp).toFixed(2);
         stpValues["percentageCOI"] = (coi.ytd.stp / gross.ytd.stp) * 100;
       }
-      const getMSVal = (yearIdx, prop) =>
-        filteredMarketShare?.[yearIdx]?.data?.[month]?.[prop] ?? 0;
+      const getMSVal = (yearIdx, prop) => {
+        if (!month) return "N/A";
+        return filteredMarketShare?.[yearIdx]?.data?.[month]?.[prop] ?? "N/A";
+      };
+
 
       const current = marketShare?.[marketShare.length - 1] ?? {};
       setMarketShareData({

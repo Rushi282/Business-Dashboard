@@ -4,7 +4,7 @@ const FormattedCell = ({ value, disable = false }) => {
   if (disable) return <td className="disable-cell" />;
 
   const num = Number(value);
-  if (isNaN(num)) return <td>-</td>;
+  if (isNaN(num)) return <td style={{ fontSize: "x-small" }}>N/A</td>;
 
   const formatted = Math.abs(num).toFixed(2);
   const isNegative = num < 0;
