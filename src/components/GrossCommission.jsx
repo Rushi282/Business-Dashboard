@@ -48,7 +48,6 @@ const GrossCommission = () => {
 
     setCategories(cat);
     setYearsPerCategory(yearLabels);
-    console.log("jabiin::::::", getYearGroups(categories, yearsPerCategory));
     setSeriesData([
       {
         name: "Gross Commissions",
