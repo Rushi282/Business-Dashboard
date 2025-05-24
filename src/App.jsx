@@ -2,7 +2,9 @@ import "./App.css";
 import CustomDatePicker from "./components/CustomDatePicker";
 import FinancialsTable from "./components/FinancialsTable";
 import GrossCommCOI from "./components/GrossCommCOI";
+import GrossCommCOIChartECharts from "./components/GrossCommCOIChartECharts";
 import GrossCommission from "./components/GrossCommission";
+import GrossNetChartECharts from "./components/GrossCommissionEcharts";
 import GrossCommSTP from "./components/GrossCommSTP";
 import MarketShareActiveClients from "./components/MarketShareActiveClients";
 import NetRevenueSTP from "./components/NetRevenueSTP";
@@ -35,7 +37,8 @@ function App() {
           {/* Chart 3 end */}
           {/* Chart 1 start */}
           <div className="col-xl-8 border">
-            <GrossCommission />
+            {/* <GrossCommission /> */}
+            <GrossNetChartECharts />
           </div>
           {/* Chart 1 end */}
           {/* Chart 4 start */}
@@ -45,7 +48,8 @@ function App() {
           {/* Chart 4 end */}
           {/* Chart 2 start */}
           <div className="col-xl-8 border">
-            <GrossCommCOI />
+            {/* <GrossCommCOI /> */}
+            <GrossCommCOIChartECharts />
           </div>
           {/* Chart 2 end */}
           {/* Chart 5 start */}
