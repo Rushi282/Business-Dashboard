@@ -14,12 +14,9 @@ function App() {
         {/* Header start */}
         <div className="row">
           <header className="head mt-1">
-            <h3>Cahe ET - Business KPI – EMEA</h3>
+            <h3>Cash ET - Business KPI – EMEA</h3>
           </header>
           <header className="header mt-1">
-            {/* <span>select date</span>
-            <input type="date" class="date-input" min={"2024-01-01"} />
-            <button className="search-btn">Go</button> */}
             <CustomDatePicker />
           </header>
         </div>
