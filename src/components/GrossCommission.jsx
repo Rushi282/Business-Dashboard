@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from "react";
-import Highcharts from "highcharts";
-import HighchartsReact from "highcharts-react-official";
+import React from "react";
+import GenericChart from "./GenericChart";
 import useDashboardData from "../hook/useDashboardData";
-import { filterDataByDate, filterKeyData, MONTHS } from "../helper/filters";
-import getYearGroups from "../helper/graphelper";
 
-const GrossCommission = () => {
+const GrossNetChart = () => {
   const { mtd, globalDate } = useDashboardData();
   const [categories, setCategories] = useState([]);
   const [seriesData, setSeriesData] = useState([]);
@@ -117,5 +114,27 @@ const GrossCommission = () => {
 
   return <HighchartsReact highcharts={Highcharts} options={options} />;
 };
+  return (
+    <GenericChart
+      title="Gross Commissions and Net Revenue"
+      dataSources={[mtd]} // or use combinedData if you want both mtd and ytd together
+      globalDate={globalDate}
+      seriesConfigs={[
+        {
+          label: "Gross Commissions",
+          key: "grossCommissions",
+          color: "#023e8a",
+          type: "column", // bar chart
+        },
+        {
+          label: "Net Revenue",
+          key: "netRevenue",
+          color: "#0874e1",
+          type: "column", // line chart for variation
+        },
+      ]}
+    />
+  );
+};
 
-export default GrossCommission;
+export default GrossNetChart;
