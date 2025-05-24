@@ -107,7 +107,7 @@ const GrossCommission = () => {
           format: "{point.y:f}",
           rotation: -90,
           align: "right",
-          x: 5, // Fine-tune X position
+          x: 7, // Fine-tune X position
           y: 4,
         },
       },
