@@ -88,7 +88,7 @@ const GenericChartECharts = ({ title, seriesConfigs = [] }) => {
         ...(type === "bar" && { barWidth: 12 }),
         smooth: type === "line",
         label: {
-          show: true,
+          show: dataLabels.show,
           position: type === "bar" ? "top" : "left",
           rotate: 90,
           offset: type === "bar" ? [8, 0] : [10, 20],

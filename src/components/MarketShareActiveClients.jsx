@@ -35,6 +35,18 @@ const MarketShareActiveClients = () => {
 
     const { years, data } = chartData;
 
+    const allActive = years.flatMap((year) =>
+      data[`avg${year}`].filter((v) => v != null)
+    );
+    const minActive = Math.min(...allActive) * 0.9 || 0;
+    const maxActive = Math.max(...allActive) * 1.1 || 100;
+
+    const allShare = years.flatMap((year) =>
+      data[`share${year}`].filter((v) => v != null)
+    );
+    const minShare = Math.min(...allShare) * 0.9 || 0;
+    const maxShare = Math.max(...allShare) * 1.1 || 100;
+
     const series = [];
     const legendData = [];
 
@@ -74,18 +86,29 @@ const MarketShareActiveClients = () => {
       xAxis: {
         type: "category",
         data: MONTHS,
+        axisTick: { show: false },
       },
       yAxis: [
         {
           type: "value",
-          name: "Active Clients",
           position: "left",
+          min: minActive,
+          max: maxActive,
+          scale: true,
+          splitLine: { show: false },
+          axisLabel: { show: false },
+          axisTick: { show: false }, // optionally hide ticks
         },
         {
           type: "value",
-          name: "Market Share",
+          // Removed name to not show label on y-axis
           position: "right",
-          axisLabel: { formatter: "{value} %" },
+          min: minShare,
+          max: maxShare,
+          scale: true,
+          splitLine: { show: false },
+          axisLabel: { show: false },
+          axisTick: { show: false }, // optionally hide ticks
         },
       ],
       series,
@@ -99,7 +122,9 @@ const MarketShareActiveClients = () => {
     };
   }, [chartData]);
 
-  return <ReactECharts option={option} style={{ height: 400 }} />;
+  return (
+    <ReactECharts option={option} style={{ height: 400, width: "100%" }} />
+  );
 };
 
 export default MarketShareActiveClients;

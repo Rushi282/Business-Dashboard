@@ -13,6 +13,9 @@ const GrossNetChartECharts = () => {
           type: "bar", // ECharts equivalent of Highcharts "column"
           yAxis: 1,
           source: "mtd",
+          dataLabels: {
+            show: true,
+          },
         },
         {
           label: "Net Revenue",
@@ -21,6 +24,9 @@ const GrossNetChartECharts = () => {
           type: "bar",
           yAxis: 1,
           source: "mtd",
+          dataLabels: {
+            show: true,
+          }
         },
       ]}
     />

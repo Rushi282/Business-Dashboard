@@ -1,6 +1,5 @@
 import React from "react";
 import GenericChartECharts from "./GenericChart";
-import useDashboardData from "../hook/useDashboardData";
 
 const GrossCommCOIChartECharts = () => {
   return (
@@ -14,6 +13,9 @@ const GrossCommCOIChartECharts = () => {
           type: "bar", // Equivalent of Highcharts column
           yAxis: 1,
           source: "mtd",
+          dataLabels: {
+            show: true,
+          },
         },
         {
           label: "Cost of Income",
@@ -22,6 +24,9 @@ const GrossCommCOIChartECharts = () => {
           type: "bar",
           yAxis: 1,
           source: "mtd",
+          dataLabels: {
+            show: true,
+          },
         },
         {
           label: "COI % of Gross Commission",

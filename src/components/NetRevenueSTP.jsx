@@ -1,6 +1,5 @@
 import React from "react";
 import GenericChartECharts from "./GenericChart";
-import useDashboardData from "../hook/useDashboardData";
 
 const NetRevenueSTP = () => {
   return (
@@ -14,19 +13,21 @@ const NetRevenueSTP = () => {
           type: "bar",
           yAxis: 1,
           source: "mtd",
+          dataLabels: {
+            show: false,
+          }
         },
         {
           label: "STP",
           key: "netRevenuestp",
           color: "#37366d",
           type: "line",
-          yAxis: 1,
           source: "stp",
           stpFilterKey: "Net Revenues",
           yAxis: 0,
           tooltipSuffix: "",
           dataLabels: {
-            show: true,
+            show: false ,
             formatter: "{c}%",
             position: "top",
           },
