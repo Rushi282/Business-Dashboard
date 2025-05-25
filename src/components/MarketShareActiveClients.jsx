@@ -74,13 +74,14 @@ const MarketShareActiveClients = () => {
       title: {
         text: "Market Share & Average Active Clients",
         left: "center",
+        top: 20,
       },
       tooltip: {
         trigger: "axis",
         axisPointer: { type: "cross" },
       },
       legend: {
-        bottom: 10,
+        bottom: 20,
         data: legendData,
       },
       xAxis: {
@@ -112,12 +113,12 @@ const MarketShareActiveClients = () => {
         },
       ],
       series,
-      color: ["#7cb5ec", "#434348", "#90ed7d", "#f7a35c", "#f45b5b", "#8085e9"],
+      color: ["#0077b6", "#03045e", "#5c677d", "#33415c"],
       grid: {
-        top: 60,
-        bottom: 80,
-        left: 60,
-        right: 60,
+        top: 30,
+        bottom: 100,
+        left: 20,
+        right: 20,
       },
     };
   }, [chartData]);
