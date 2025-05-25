@@ -14,6 +14,10 @@ const MainPage = () => {
           axios.get("/mock/ytd.json"),
           axios.get("/mock/stp.json"),
           axios.get("/mock/marketshare.json"),
+          // axios.get("http://127.0.0.1:8080/calculate_mtd_emea"),
+          // axios.get("http://127.0.0.1:8080/calculate_ytd_emea"),
+          // axios.get("http://127.0.0.1:8080/stp"),
+          // axios.get("http://127.0.0.1:8080/marketshare"),
         ]);
 
         processData("MTD", mtdRes.data, dispatch);
@@ -28,7 +32,7 @@ const MainPage = () => {
     fetchData();
   }, [dispatch]);
 
-  return <div>Loading...</div>;
+  return;
 };
 
 export default MainPage;

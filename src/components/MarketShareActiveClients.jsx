@@ -1,187 +1,105 @@
-import React from "react";
-import Highcharts from "highcharts";
-import HighchartsReact from "highcharts-react-official";
+import React, { useMemo } from "react";
+import ReactECharts from "echarts-for-react";
+import useDashboardData from "../hook/useDashboardData";
+import { filterDataByDate, filterKeyData, MONTHS } from "../helper/filters";
+
+const getMonthlyArray = (data, year) =>
+  MONTHS.map((month) => {
+    const value = data?.find((d) => d.year === year)?.data?.[month];
+    return value != null ? parseFloat(value) : null;
+  });
 
 const MarketShareActiveClients = () => {
-  const options = {
-    chart: {
-      zooming: {
-        type: "xy",
-      },
-    },
-    title: {
-      text: "Market Share & Average Active Clients",
-    },
+  const { marketShare, globalDate } = useDashboardData();
 
-    xAxis: [
-      {
-        categories: [
-          "Jan",
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-          "Oct",
-          "Nov",
-          "Dec",
-        ],
-        crosshair: true,
-      },
-    ],
-    yAxis: [
-      {
-        // Primary yAxis
-        labels: {},
-        title: {
-          text: null,
-          style: {
-            color: "#000",
-          },
-        },
-        opposite: true,
-      },
-      {
-        // Secondary yAxis
-        gridLineWidth: 0,
-        title: {
-          text: null,
-        },
-        labels: {},
-      },
-      {
-        // Tertiary yAxis
-        gridLineWidth: 0,
-        title: {
-          text: "Sea-Level Pressure",
-          style: {
-            color: Highcharts.getOptions().colors[1],
-          },
-        },
-        labels: {
-          format: "{value} mb",
-          style: {
-            color: Highcharts.getOptions().colors[1],
-          },
-        },
-        opposite: true,
-      },
-    ],
-    tooltip: {
-      shared: true,
-    },
-    legend: {
-      layout: "vertical",
-      align: "left",
-      x: 80,
-      verticalAlign: "top",
-      y: 55,
-      floating: true,
-      backgroundColor:
-        Highcharts.defaultOptions.legend.backgroundColor || // theme
-        "rgba(255,255,255,0.25)",
-    },
-    series: [
-      {
-        name: "Active Client(2024)",
-        type: "column",
-        yAxis: 1,
-        data: [
-          49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1,
-          95.6, 54.4,
-        ],
-        tooltip: {
-          valueSuffix: "",
-        },
-      },
-      {
-        name: "Active Client(2025)",
-        type: "column",
-        yAxis: 1,
-        data: [
-          49.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1,
-          95.6, 54.4,
-        ],
-        tooltip: {
-          valueSuffix: "",
-        },
-      },
-      {
-        name: "Market Share(2024)",
-        type: "spline",
-        yAxis: 2,
-        data: [
-          1016, 1016, 1015.9, 1015.5, 1012.3, 1009.5, 1009.6, 1010.2, 1013.1,
-          1016.9, 1018.2, 1016.7,
-        ],
-        marker: {
-          enabled: false,
-        },
-        // dashStyle: "shortdot",
-        tooltip: {
-          valueSuffix: "",
-        },
-      },
-      {
-        name: "Market Share(2025)",
-        type: "spline",
-        data: [
-          7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6,
-        ],
-        tooltip: {
-          valueSuffix: "",
-        },
-      },
-    ],
-    responsive: {
-      rules: [
+  const chartData = useMemo(() => {
+    if (!marketShare?.length) return null;
+
+    const filtered = filterDataByDate(marketShare, globalDate);
+    const avgClient = filterKeyData(filtered, "averageClientMTD");
+    const mShare = filterKeyData(filtered, "marketShareMTD");
+
+    const years = [...new Set([...avgClient, ...mShare].map((d) => d.year))];
+
+    const result = {};
+    years.forEach((year) => {
+      result[`avg${year}`] = getMonthlyArray(avgClient, year);
+      result[`share${year}`] = getMonthlyArray(mShare, year);
+    });
+
+    return { years, data: result };
+  }, [marketShare, globalDate]);
+
+  const option = useMemo(() => {
+    if (!chartData) return {};
+
+    const { years, data } = chartData;
+
+    const series = [];
+    const legendData = [];
+
+    years.forEach((year) => {
+      series.push(
         {
-          condition: {
-            maxWidth: 500,
-          },
-          chartOptions: {
-            legend: {
-              floating: false,
-              layout: "horizontal",
-              align: "center",
-              verticalAlign: "bottom",
-              x: 0,
-              y: 0,
-            },
-            yAxis: [
-              {
-                labels: {
-                  align: "right",
-                  x: 0,
-                  y: -6,
-                },
-                showLastLabel: false,
-              },
-              {
-                labels: {
-                  align: "left",
-                  x: 0,
-                  y: -6,
-                },
-                showLastLabel: false,
-              },
-              {
-                visible: false,
-              },
-            ],
-          },
+          name: `Active Client (${year})`,
+          type: "bar",
+          data: data[`avg${year}`],
+          yAxisIndex: 0,
+        },
+        {
+          name: `Market Share (${year})`,
+          type: "line",
+          data: data[`share${year}`],
+          yAxisIndex: 1,
+          smooth: true,
+          showSymbol: false,
+        }
+      );
+      legendData.push(`Active Client (${year})`, `Market Share (${year})`);
+    });
+
+    return {
+      title: {
+        text: "Market Share & Average Active Clients",
+        left: "center",
+      },
+      tooltip: {
+        trigger: "axis",
+        axisPointer: { type: "cross" },
+      },
+      legend: {
+        bottom: 10,
+        data: legendData,
+      },
+      xAxis: {
+        type: "category",
+        data: MONTHS,
+      },
+      yAxis: [
+        {
+          type: "value",
+          name: "Active Clients",
+          position: "left",
+        },
+        {
+          type: "value",
+          name: "Market Share",
+          position: "right",
+          axisLabel: { formatter: "{value} %" },
         },
       ],
-    },
-  };
-  return (
-    <>
-      <HighchartsReact highcharts={Highcharts} options={options} />
-    </>
-  );
+      series,
+      color: ["#7cb5ec", "#434348", "#90ed7d", "#f7a35c", "#f45b5b", "#8085e9"],
+      grid: {
+        top: 60,
+        bottom: 80,
+        left: 60,
+        right: 60,
+      },
+    };
+  }, [chartData]);
+
+  return <ReactECharts option={option} style={{ height: 400 }} />;
 };
 
 export default MarketShareActiveClients;

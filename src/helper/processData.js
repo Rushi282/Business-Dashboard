@@ -34,7 +34,6 @@ const transformRow = (row, mapping) =>
     let value = row[sourceKey];
 
     if (value === undefined) {
-      // console.warn(`Missing key: "${sourceKey}"`);
       acc[targetKey] = null;
       return acc;
     }
@@ -67,7 +66,6 @@ const processSTP = (rawData) => {
 // Main Dispatcher
 const processData = (type, rawData, dispatch) => {
   if (!Array.isArray(rawData) || rawData.length === 0) {
-    console.warn(`${type} data is empty or invalid.`);
     return;
   }
 
@@ -79,7 +77,6 @@ const processData = (type, rawData, dispatch) => {
 
   const mapping = KEY_MAPPINGS[type];
   if (!mapping) {
-    console.warn(`Unsupported data type: ${type}`);
     return;
   }
 
@@ -95,7 +92,6 @@ const processData = (type, rawData, dispatch) => {
     .map((row) => transformRow(row, mapping));
 
   if (filteredData.length === 0) {
-    console.warn(`No valid ${type} entries with Business Date >= 2024`);
     return;
   }
 
