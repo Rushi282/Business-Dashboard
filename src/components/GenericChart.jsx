@@ -1,183 +1,197 @@
-import React, { useEffect, useState, useMemo } from "react";
-import Highcharts from "highcharts";
-import HighchartsReact from "highcharts-react-official";
+import React, { useEffect, useState } from "react";
+import ReactECharts from "echarts-for-react";
 import { MONTHS, filterDataByDate, filterKeyData } from "../helper/filters";
 import getYearGroups from "../helper/graphelper";
+import useDashboardData from "../hook/useDashboardData";
 
-const defaultDataLabels = (type) => ({
-  enabled: true,
-  format: type === "spline" ? "{point.y}%" : "{point.y:f}",
-  rotation: type === "column" ? -90 : 0,
-  align: type === "column" ? "right" : "center",
-  verticalAlign: type === "column" ? undefined : "bottom",
-  x: type === "column" ? 5 : 0,
-  y: type === "column" ? 4 : 0,
-  allowOverlap: false,
-  zIndex: type === "spline" ? 10 : undefined,
-  style: {
-    fontSize: "10px",
-    fontWeight: type === "spline" ? "bold" : "normal",
-    textOutline: "none",
-    color: "#000",
-  },
-});
-
-const GenericChart = ({
-  title,
-  dataSources = [],
-  globalDate,
-  seriesConfigs = [],
-  customOptions = {},
-}) => {
+const GenericChartECharts = ({ title, seriesConfigs = [] }) => {
   const [categories, setCategories] = useState([]);
   const [yearsPerCategory, setYearsPerCategory] = useState([]);
   const [seriesData, setSeriesData] = useState([]);
+  const { mtd, stp, globalDate } = useDashboardData();
 
   useEffect(() => {
-    if (!dataSources.length) return;
+    if (!mtd?.length) return;
 
-    // Filter all data sources by date and flatten
-    const allFilteredData = dataSources
-      .filter(Array.isArray)
-      .flatMap((data) => filterDataByDate(data, globalDate));
-
-    if (!allFilteredData.length) return;
-
-    // Prebuild map: { key -> { year -> dataEntry } }
+    const filteredMTDData = filterDataByDate(mtd, globalDate);
     const dataMap = {};
-    for (const { key } of seriesConfigs) {
-      dataMap[key] = filterKeyData(allFilteredData, key).reduce(
-        (acc, entry) => {
-          acc[entry.year] = entry;
-          return acc;
-        },
-        {}
-      );
-    }
+
+    // Map keys to their data sources
+    seriesConfigs.forEach(({ key, source, stpFilterKey }) => {
+      if (source === "mtd") {
+        dataMap[key] = filterKeyData(filteredMTDData, key).reduce(
+          (acc, entry) => {
+            acc[entry.year] = entry;
+            return acc;
+          },
+          {}
+        );
+      } else if (source === "stp") {
+        const stpEntry = stp.find((s) => s.metric === stpFilterKey);
+        dataMap[key] = stpEntry?.monthly || {};
+      }
+    });
+
+    const seriesValues = Object.fromEntries(
+      seriesConfigs.map(({ key }) => [key, []])
+    );
 
     const monthLabels = [];
     const yearLabels = [];
-    const seriesValues = {};
-    seriesConfigs.forEach(({ key }) => {
-      seriesValues[key] = [];
-    });
-
-    // Sort all years ascending
-    const years = Array.from(new Set(allFilteredData.map((d) => d.year))).sort(
-      (a, b) => a - b
-    );
+    const years = [...new Set(filteredMTDData.map((d) => d.year))].sort();
 
     years.forEach((year) => {
       MONTHS.forEach((month) => {
-        // Check if any series has non-zero value for this year/month
-        const hasData = seriesConfigs.some(({ key }) => {
-          const entry = dataMap[key][year];
-          const val = entry?.data?.[month];
+        const hasData = seriesConfigs.some(({ key, source }) => {
+          const val =
+            source === "mtd"
+              ? dataMap[key]?.[year]?.data?.[month]
+              : dataMap[key]?.[month];
           return val != null && val !== 0;
         });
 
-        if (hasData) {
-          monthLabels.push(month);
-          yearLabels.push(year);
+        if (!hasData) return;
 
-          seriesConfigs.forEach(({ key }) => {
-            const val = dataMap[key][year]?.data?.[month];
-            seriesValues[key].push(val != null ? Math.abs(val) : 0);
-          });
-        }
+        monthLabels.push(month);
+        yearLabels.push(year);
+
+        seriesConfigs.forEach(({ key, source }) => {
+          let val = 0;
+          if (source === "mtd") {
+            val = dataMap[key]?.[year]?.data?.[month];
+          } else if (source === "stp") {
+            val = year === 2024 ? null : dataMap[key]?.[month];
+          }
+          seriesValues[key].push(val != null ? Math.abs(val) : null);
+        });
       });
     });
 
     setCategories(monthLabels);
     setYearsPerCategory(yearLabels);
 
-    // Build series for Highcharts
-    setSeriesData(
-      seriesConfigs.map(
-        ({
-          label,
-          key,
-          color,
-          type = "column",
-          yAxis = 0,
-          dataLabels,
-          tooltipSuffix,
-          ...rest
-        }) => ({
-          name: label,
-          data: seriesValues[key],
-          color,
-          type,
-          yAxis,
-          dataLabels: dataLabels ?? defaultDataLabels(type),
-          tooltip: tooltipSuffix ? { valueSuffix: tooltipSuffix } : undefined,
-          ...rest,
-        })
-      )
+    const builtSeries = seriesConfigs.map(
+      ({
+        label,
+        key,
+        color,
+        type = "bar",
+        yAxis = 0,
+        tooltipSuffix = "",
+        dataLabels,
+      }) => ({
+        name: label,
+        type,
+        yAxisIndex: yAxis,
+        data: seriesValues[key],
+        itemStyle: { color },
+        ...(type === "bar" && { barWidth: 12 }),
+        smooth: type === "line",
+        label: {
+          show: true,
+          position: type === "bar" ? "top" : "left",
+          rotate: 90,
+          offset: type === "bar" ? [8, 0] : [10, 20],
+          fontSize: type === "bar" ? 10 : 12,
+          fontWeight: type === "bar" ? "600" : "500",
+          color: "#000",
+          align: "center",
+          verticalAlign: "middle",
+          formatter: dataLabels?.formatter
+            ? (params) =>
+                dataLabels.formatter.replace(
+                  "{c}",
+                  `${params.data}${tooltipSuffix}`
+                )
+            : undefined,
+        },
+      })
     );
-  }, [dataSources, globalDate, seriesConfigs]);
 
-  const hasSecondYAxis = useMemo(
-    () => seriesData.some((s) => s.yAxis === 1),
-    [seriesData]
-  );
+    setSeriesData(builtSeries);
+  }, [mtd, stp, globalDate, seriesConfigs]);
 
-  const baseOptions = useMemo(
-    () => ({
-      chart: { zooming: { type: "xy" } },
-      title: { text: title, align: "center" },
-      xAxis: [
+  const yearGroup = getYearGroups(categories, yearsPerCategory);
+  const hasMultipleYAxes = seriesConfigs.some(({ yAxis }) => yAxis === 1);
+
+  const yAxisConfig = hasMultipleYAxes
+    ? [
         {
-          categories,
-          crosshair: true,
+          type: "value",
+          position: "left",
+          axisLabel: { show: false },
+          splitLine: { show: false },
         },
         {
-          categories: getYearGroups(categories, yearsPerCategory),
-          linkedTo: 0,
-          labels: { y: 30, style: { fontWeight: "bold", fontSize: "13px" } },
-          lineWidth: 0,
-          tickLength: 0,
-          offset: 20,
+          type: "value",
+          position: "right",
+          axisLabel: { show: false },
+          splitLine: { show: false },
         },
-      ],
-      yAxis: hasSecondYAxis
-        ? [
-            { labels: { enabled: false }, title: { text: null } },
-            {
-              labels: { enabled: false },
-              title: { text: null },
-              opposite: true,
-              min: 0,
-            },
-          ]
-        : [{ labels: { enabled: false }, title: { text: null } }],
-      tooltip: { shared: true },
-      legend: {
-        align: "center",
-        verticalAlign: "bottom",
-        backgroundColor:
-          Highcharts.defaultOptions.legend.backgroundColor ||
-          "rgba(255,255,255,0.25)",
-      },
-      plotOptions: {
-        column: {
-          pointPadding: 0.1,
-          groupPadding: 0.2,
-          borderWidth: 0,
-          dataLabels: defaultDataLabels("column"),
+      ]
+    : [
+        {
+          type: "value",
+          axisLabel: { formatter: (val) => val.toLocaleString() },
+          splitLine: { show: true },
         },
-        bar: { dataLabels: defaultDataLabels("bar") },
-        line: { dataLabels: defaultDataLabels("line") },
-        spline: { dataLabels: defaultDataLabels("spline") },
+      ];
+
+  const option = {
+    title: { text: title, left: "center", top: 20 },
+    tooltip: {
+      trigger: "axis",
+      axisPointer: { type: "shadow" },
+      formatter: (params) =>
+        params.length
+          ? `${params[0].axisValue}<br/>` +
+            params
+              .map((item) => {
+                const suffix =
+                  seriesConfigs.find((s) => s.label === item.seriesName)
+                    ?.tooltipSuffix || "";
+                return `
+                <span style="display:inline-block;margin-right:5px;border-radius:10px;width:9px;height:9px;background-color:${item.color};"></span>
+                ${item.seriesName}: ${item.data}${suffix}<br/>`;
+              })
+              .join("")
+          : "",
+    },
+    legend: {
+      bottom: 20,
+      data: seriesConfigs.map(({ label }) => label),
+      itemGap: 15,
+    },
+    grid: {
+      top: 60,
+      left: "2%",
+      right: "2%",
+      bottom: 40,
+      containLabel: true,
+    },
+    xAxis: [
+      {
+        type: "category",
+        data: categories,
+        axisTick: { show: false },
+        axisLabel: { fontSize: 11 },
       },
-      series: seriesData,
-    }),
-    [title, categories, yearsPerCategory, hasSecondYAxis, seriesData]
+      {
+        type: "category",
+        data: yearGroup,
+        position: "bottom",
+        axisLabel: { fontWeight: "bold", fontSize: 13, margin: 30 },
+        axisLine: { show: false },
+        axisTick: { show: false },
+      },
+    ],
+    yAxis: yAxisConfig,
+    series: seriesData,
+  };
+
+  return (
+    <ReactECharts option={option} style={{ height: "400px", width: "100%" }} />
   );
-
-  const options = { ...baseOptions, ...customOptions };
-
-  return <HighchartsReact highcharts={Highcharts} options={options} />;
 };
 
-export default GenericChart;
+export default GenericChartECharts;

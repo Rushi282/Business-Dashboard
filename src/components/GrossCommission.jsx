@@ -1,31 +1,30 @@
 import React from "react";
-import GenericChart from "./GenericChart";
-import useDashboardData from "../hook/useDashboardData";
+import GenericChartECharts from "./GenericChart";
 
-const GrossNetChart = () => {
-  const { mtd, globalDate } = useDashboardData();
-
+const GrossNetChartECharts = () => {
   return (
-    <GenericChart
+    <GenericChartECharts
       title="Gross Commissions and Net Revenue"
-      dataSources={[mtd]} // or use combinedData if you want both mtd and ytd together
-      globalDate={globalDate}
       seriesConfigs={[
         {
           label: "Gross Commissions",
           key: "grossCommissions",
           color: "#023e8a",
-          type: "column", // bar chart
+          type: "bar", // ECharts equivalent of Highcharts "column"
+          yAxis: 1,
+          source: "mtd",
         },
         {
           label: "Net Revenue",
           key: "netRevenue",
           color: "#0874e1",
-          type: "column", // line chart for variation
+          type: "bar",
+          yAxis: 1,
+          source: "mtd",
         },
       ]}
     />
   );
 };
 
-export default GrossNetChart;
+export default GrossNetChartECharts;

@@ -1,42 +1,40 @@
 import React from "react";
-import GenericChart from "./GenericChart";
+import GenericChartECharts from "./GenericChart";
 import useDashboardData from "../hook/useDashboardData";
 
-const GrossCommCOIChart = () => {
-  const { mtd, globalDate } = useDashboardData();
-
-  // Pass mtd as the only data source in an array
+const GrossCommCOIChartECharts = () => {
   return (
-    <GenericChart
+    <GenericChartECharts
       title="Gross Commissions & Cost of Income"
-      dataSources={[mtd]} // always an array of data arrays
-      globalDate={globalDate}
       seriesConfigs={[
         {
           label: "Gross Commissions",
           key: "grossCommissions",
           color: "#023e8a",
-          type: "column",
+          type: "bar", // Equivalent of Highcharts column
           yAxis: 1,
+          source: "mtd",
         },
         {
           label: "Cost of Income",
           key: "costOfIncome",
           color: "#00b4d8",
-          type: "column",
+          type: "bar",
           yAxis: 1,
+          source: "mtd",
         },
         {
           label: "COI % of Gross Commission",
           key: "percentageCOI",
           color: "#0077b6",
-          type: "spline",
+          type: "line", // ECharts equivalent of spline
           yAxis: 0,
-          tooltipSuffix: " %",
+          source: "mtd",
+          tooltipSuffix: "",
           dataLabels: {
-            enabled: true,
-            format: "{point.y}%",
-            y: -10,
+            show: true,
+            formatter: "{c}%",
+            position: "top",
           },
         },
       ]}
@@ -44,4 +42,4 @@ const GrossCommCOIChart = () => {
   );
 };
 
-export default GrossCommCOIChart;
+export default GrossCommCOIChartECharts;

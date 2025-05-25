@@ -1,103 +1,38 @@
 import React from "react";
-import Highcharts from "highcharts";
-import HighchartsReact from "highcharts-react-official";
+import GenericChartECharts from "./GenericChart";
+import useDashboardData from "../hook/useDashboardData";
 
 const GrossCommSTP = () => {
-  const options = {
-    chart: {
-      zooming: {
-        type: "xy",
-      },
-    },
-    title: {
-      text: "Gross Commissions vs STP",
-      align: "center",
-    },
-    xAxis: [
-      {
-        categories: [
-          "Jan",
-          "Feb",
-          "Mar",
-          "Apr",
-          "May",
-          "Jun",
-          "Jul",
-          "Aug",
-          "Sep",
-          "Oct",
-          "Nov",
-          "Dec",
-        ],
-        crosshair: true,
-      },
-    ],
-    yAxis: [
-      {
-        // Primary yAxis
-        labels: {
-          format: "{value}",
-          style: {
-            color: "#000",
+  return (
+    <GenericChartECharts
+      title="Gross Commissions vs STP"
+      seriesConfigs={[
+        {
+          label: "Gross Commissions",
+          key: "grossCommissions",
+          color: "#023e8a",
+          type: "bar", // Equivalent of Highcharts column
+          yAxis: 1,
+          source: "mtd",
+        },
+        {
+          label: "STP",
+          key: "grossCommissionsstp",
+          color: "#37366d",
+          type: "line",
+          yAxis: 1,
+          source: "stp",
+          stpFilterKey: "Gross Commissions",
+          yAxis: 0,
+          tooltipSuffix: "",
+          dataLabels: {
+            show: true,
+            formatter: "{c}%",
+            position: "top",
           },
         },
-        title: {
-          text: null,
-        },
-      },
-      {
-        // Secondary yAxis
-        title: {
-          text: null,
-        },
-        labels: {
-          enabled: false,
-        },
-        opposite: true,
-      },
-    ],
-    tooltip: {
-      shared: true,
-    },
-    legend: {
-      align: "center",
-      verticalAlign: "bottom",
-      backgroundColor:
-        Highcharts.defaultOptions.legend.backgroundColor || // theme
-        "rgba(255,255,255,0.25)",
-    },
-    series: [
-      {
-        name: "Gross Commissions",
-        type: "column",
-        yAxis: 1,
-        data: [
-          45.7, 37.0, 28.9, 17.1, 39.2, 18.9, 90.2, 78.5, 74.6, 18.7, 17.1,
-          16.0,
-        ],
-        tooltip: {
-          valueSuffix: "",
-        },
-        color: "#023e8a",
-      },
-      {
-        name: "STP",
-        type: "spline",
-        data: [
-          -11.4, -9.5, -14.2, 0.2, 7.0, 12.1, 13.5, 13.6, 8.2, -2.8, -12.0,
-          -15.5,
-        ],
-        tooltip: {
-          valueSuffix: "",
-        },
-        color: "#37366d",
-      },
-    ],
-  };
-  return (
-    <>
-      <HighchartsReact highcharts={Highcharts} options={options} />
-    </>
+      ]}
+    />
   );
 };
 
