@@ -5,7 +5,6 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import { Provider } from "react-redux";
 import { store } from "./store";
 import MainPage from "./MainPage.jsx";
-import TestPage from "./TestPage.jsx";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(

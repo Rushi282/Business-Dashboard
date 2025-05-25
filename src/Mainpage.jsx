@@ -32,7 +32,7 @@ const MainPage = () => {
     fetchData();
   }, [dispatch]);
 
-  return <div>Loading...</div>;
+  return;
 };
 
 export default MainPage;
